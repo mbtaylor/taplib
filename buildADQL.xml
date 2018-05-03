@@ -42,6 +42,8 @@
 	<!-- CLASSPATHS -->
 	<path id="adql.classpath">
 		<pathelement location="${POSTGRES}" />
+		<!-- taplib is needed for a few classes in the unit tests -->
+		<pathelement location="tap2.2_withSTIL.jar" />
 	</path>
 	
 	<path id="junit.class.path">
