@@ -34,4 +34,13 @@ ant -DPOSTGRES=postgresql-9.3-1103.jdbc3.jar
   and add it to the build-time classpath, just for the benefit of 
   some build-time unit tests.
 
+1.5:
+ant -DPOSTGRES=postgresql-9.3-1103.jdbc3.jar
+    -DSERVLET-API=javax.servlet.jar
+    -DJUNIT-API=junit-4.12.jar
+    -f buildADQL.xml
+    buildLib
+  Needed to download matching tapLib (v2.3) and reference it in the
+  buildADQL file.  Also change "1.7" to "1.6" some places in the
+  build file.
 
