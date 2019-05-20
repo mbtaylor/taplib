@@ -121,7 +121,6 @@
 		<jar basedir="${classesDir}" destfile="${adqlParserJarFile}" filesetmanifest="mergewithoutmain" includes="${includesList}">
             <manifest>
                 <attribute name="Main-Class" value="adql.parser.ADQLParser"/>
-                <attribute name="Class-Path" value="."/>
             </manifest>
         </jar>
 		<echo>And its symbolic link:</echo>
