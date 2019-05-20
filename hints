@@ -43,4 +43,5 @@ ant -DPOSTGRES=postgresql-9.3-1103.jdbc3.jar
   Needed to download matching tapLib (v2.3) and reference it in the
   buildADQL file.  Also change "1.7" to "1.6" some places in the
   build file.
+  Remove "Class-path: ." from adqlParser jar file.
 
