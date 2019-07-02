@@ -45,3 +45,6 @@ ant -DPOSTGRES=postgresql-9.3-1103.jdbc3.jar
   build file.
   Remove "Class-path: ." from adqlParser jar file.
 
+  There are a lot of classfile version warnings at build time, but these
+  concern tests, so they don't stop the adqlParser.jar file being built.
+
